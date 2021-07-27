@@ -5,7 +5,7 @@ public class Developer extends Employee{
 
     @Override
     public void setSkills(String skills){
-        System.out.println("Programming language knowledge, Teamwork");
+
     }
 
 }

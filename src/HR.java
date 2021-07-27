@@ -6,7 +6,7 @@ public class HR extends Employee{
 
     @Override
     public void setSkills(String skills) {
-        System.out.println("Employee Relations, Teamwork, Colloboration");
+
     }
 
 }
