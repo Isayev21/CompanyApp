@@ -12,12 +12,13 @@ public class Employee {
 
 
 
-    public Employee(int id, int salary, String firstName, String lastName, String workDetail) {
+    public Employee(int id, int salary, String firstName, String lastName, String workDetail,String skills) {
         this.id = id;
         this.salary = salary;
         this.firstName = firstName;
         this.lastName = lastName;
         this.workDetail = workDetail;
+        this.skills = skills;
     }
 
     public int getId() {
@@ -71,6 +72,6 @@ public class Employee {
 
     @Override
     public String toString(){
-        return "Employee- " + this.firstName + " " + this.lastName + ". " + this.workDetail + ": salary " +this.salary + "$";
+        return "Employee: " + firstName + " " + lastName + "\n ID: " + id + "\nwork: " + workDetail + "\nSkill: " + skills + " \nSalary " +this.salary + "$";
     }
 }
